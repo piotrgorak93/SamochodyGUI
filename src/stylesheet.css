@@ -1,0 +1,15 @@
+.stacja {
+-fx-fill: "red";
+}
+
+.fabryka {
+-fx-fill: "magenta";
+}
+
+.magazyn {
+-fx-fill: "yellow";
+}
+
+.baza {
+-fx-fill: "blue";
+}

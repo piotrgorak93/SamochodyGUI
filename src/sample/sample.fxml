@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.*?>
+
+<Pane fx:id="zewnetrzny" cacheShape="false" centerShape="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" scaleShape="false" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">   <children>
+      <Pane fx:id="wewnetrzny" layoutX="289.0" layoutY="50.0" prefHeight="450.0" prefWidth="405.0" style="-fx-background-color: green;">
+         <children>
+            <Rectangle fill="#adb1b5" height="315.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="15.0" />
+            <Rectangle fill="#adb1b5" height="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="15.0" />
+            <Rectangle fill="#adb1b5" height="15.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="185.0" />
+            <Rectangle fill="#adb1b5" height="15.0" layoutX="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+            <Rectangle fill="#adb1b5" height="195.0" layoutX="170.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="15.0" />
+            <Rectangle fill="#adb1b5" height="105.0" layoutX="225.0" layoutY="330.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="15.0" />
+            <Rectangle fill="#adb1b5" height="15.0" layoutX="15.0" layoutY="435.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="210.0" />
+            <Rectangle fill="#adb1b5" height="15.0" layoutX="170.0" layoutY="330.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="60.0" />
+            <Rectangle fill="#adb1b5" height="15.0" layoutX="225.0" layoutY="435.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="180.0" />
+            <Rectangle fill="#adb1b5" height="15.0" layoutX="240.0" layoutY="330.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="75.0" />
+            <Rectangle fill="#adb1b5" height="120.0" layoutX="300.0" layoutY="225.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="15.0" />
+            <Rectangle fill="#adb1b5" height="15.0" layoutX="300.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="105.0" />
+            <Rectangle fill="#adb1b5" height="210.0" layoutX="390.0" layoutY="225.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="15.0" />
+            <Rectangle fill="#adb1b5" height="195.0" layoutX="300.0" layoutY="15.0" strokeType="INSIDE" strokeWidth="0.0" width="15.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Rectangle>
+         </children></Pane>
+   </children>
+</Pane>
